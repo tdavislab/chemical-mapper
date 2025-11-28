@@ -1,0 +1,12 @@
+.idea
+.DS_Store
+.vscode
+~*
+.python-version
+__pycache__
+*.egg-info
+/build/
+/local/
+/dist/
+/dev/
+*.json

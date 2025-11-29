@@ -42,7 +42,16 @@ class Graph{
         // color functions
         this.COLORMAPS = {"- None -":undefined, 
         "Yellow, Red":["yellow", "red"], 
-        "Rainbow":["red","orange","yellow","green","blue","indigo","violet"],
+        "Rainbow" : [
+        "rgb(71, 71, 219)",   // medium blue
+        "rgb(0, 0, 92)",      // dark blue
+        "rgb(0, 255, 255)",   // cyan
+        "rgb(0, 128, 0)",     // green
+        "rgb(255, 255, 0)",   // yellow
+        "rgb(255, 97, 0)",    // orange
+        "rgb(107, 0, 0)",     // dark red
+        "rgb(224, 77, 77)"    // dusty red
+        ],
         "Yellow, Blue":["yellow", "blue"], 
         "Green, Blue":["green", "blue"]};
         this.colorScale = d3.scaleLinear();     
@@ -144,7 +153,7 @@ class Graph{
                     that.colorScale.domain([0,1]);
                 }
                 else{
-                    that.colorScale.domain([0,0.16666,0.3333,0.5,0.66666,0.83333,1]);
+                    that.colorScale.domain([0, 0.142857, 0.285714, 0.428571, 0.571428, 0.714285, 0.857142, 1]);
                 }
 
             } else if (scale === "Data range"){
@@ -1636,7 +1645,17 @@ class Graph{
             return [min_val,max_val];
         }
         else{
-            return [min_val,min_val+(max_val-min_val)*0.166,min_val+(max_val-min_val)*0.333,min_val+(max_val-min_val)*0.501,min_val+(max_val-min_val)*0.666,min_val+(max_val-min_val)*0.8333,max_val]
+            const step = (max_val - min_val) / 7;
+               return [
+                min_val,
+                min_val + step * 1,
+                min_val + step * 2,
+                min_val + step * 3,
+                min_val + step * 4,
+                min_val + step * 5,
+                min_val + step * 6,
+                max_val
+            ];ß
         }
         
 

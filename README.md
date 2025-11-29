@@ -38,7 +38,7 @@ This repository adapts Mapper for cheminformatics workflows, integrating molecul
 
 ```bash
 git clone https://github.com/DhruvMeduri/chemical_mapper.git
-cd chemical_mapper
+cd chemical_mapper-MDF2
 pip install -r requirements.txt
 python3 run.py
 ```

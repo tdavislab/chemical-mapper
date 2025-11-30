@@ -11,10 +11,10 @@ This repository adapts Mapper for cheminformatics workflows, integrating molecul
 
 ## Table of Contents
 
-1. [Installation](#installation)  
-2. [Dependencies](#dependencies)  
-3. [Interface Overview](#interface-overview)  
-4. [Main Interface Components](#main-interface-components)  
+1. [Installation](#Installation)  
+2. [Dependencies](#Dependencies)  
+3. [Interface Overview](#Interface-Overview)  
+4. [Main Interface Components](#Main Interface-components)  
    - [Mapper Graph (Central Panel)](#mapper-graph-central-panel)  
    - [Load Mapper Graph (Right Panel)](#load-mapper-graph-right-panel)  
    - [Load Raw Data Panel](#load-raw-data-panel)  
@@ -31,6 +31,7 @@ This repository adapts Mapper for cheminformatics workflows, integrating molecul
    - [Component Analysis](#component-analysis)  
    - [Export PV](#export-pv)  
 6. [Chemical Viewer Panel](#chemical-viewer-panel)  
+7. [Tutorial for Reproducing the Paper’s Figures](##Tutorial for Reproducing the Paper’s Figures)
 
 ---
 

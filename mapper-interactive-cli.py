@@ -211,6 +211,13 @@ def normalize_data(X, norm_type):
 
 
 if __name__ == '__main__':
+
+    import shutil,os
+
+    d = "./CLI_examples"
+    shutil.rmtree(d, ignore_errors=True)  # remove if exists (no error if not)
+    os.makedirs(d)                       # recreate empty dir
+    
     parser = argparse.ArgumentParser(
         description='Mapper Interactive Command Line Tool. \nSee CLI_README.md for details.')
     parser.add_argument('input', type=str,

@@ -210,7 +210,12 @@ Located directly beneath the Mapper graph, this panel provides detailed chemical
 
 This panel is essential for chemically interpreting the topology and clustering patterns observed in the Mapper graph.
 
+## Tutorial for Reproducing the Paper’s Figures
 
+Please use the link below. The videos in the folder guide you through reproducing the observations shown in the paper (**reproduce_figs**) and exporting/rendering the results in ParaView (**export_PV**).
+
+**Google Drive Link:**  
+https://drive.google.com/drive/folders/1grx1dcYGW--wzrxnrw0d6pwW3fbigWgg?usp=sharing
 
 
 

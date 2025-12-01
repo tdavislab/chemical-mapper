@@ -34,7 +34,8 @@ python data.csv --intervals 50 --overlap 30 --clusterer dbscan --eps 0.5 --min_s
 
 ### Output format
 
-Unless specified with the output flag, the default export directory is `./CLI_examples/`. Each mapper graph has the form "final\_{interval}\_{overlap}\_{epsilon}\_{min samples}.json" where overlap is the integer representing a percent (i.e. 35 for 35%). There are two additional files. `./CLI_examples/wrangled_data.csv` contains the processed data if preprocessing was requested. Note that these three files must be present in the `./CLI_examples` folder to interactively visualize the mapper graph (in particular with the same file names). 
+Unless specified with the output flag, the default export directory is `./CLI_examples/`. Each mapper graph has the form "final\_{interval}\_{overlap}\_{epsilon}\_{min samples}.json" where overlap is the integer representing a percent (i.e. 35 for 35%). There are two additional files. `./CLI_examples/wrangled_data.csv` contains the processed data if preprocessing was requested. Note that these three files must be present in the `./CLI_examples` folder to interactively visualize the mapper graph (in particular with the same file names).
+
 ---
 
 ### Full List of Parameters
@@ -68,8 +69,8 @@ The same parameter naming convention is used from scikit learn (see documentatio
 * `--distance_threshold`: Distance threshold for stopping Agglomerative clustering -->
 * `--bandwidth`: RBF kernel parameter for Mean Shift
 
+---
 
-----
 ### Original Datasets
 The datasets used to generate the results presented in the paper are available at the following link:
 https://drive.google.com/drive/folders/1grx1dcYGW--wzrxnrw0d6pwW3fbigWgg?usp=sharing 

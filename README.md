@@ -5,7 +5,11 @@
 The underlying Mapper algorithm was introduced by Singh, Mémoli, and Carlsson (2007) as a tool for extracting topological information from high-dimensional datasets.  
 **Reference:** [Singh et al., 2007](http://dx.doi.org/10.2312/SPBG/SPBG07/091-100)
 
-This repository adapts Mapper for cheminformatics workflows, integrating molecular structures, scaffolds, physicochemical properties, and geometry-based statistics into an interactive web interface.
+This repository adapts Mapper for cheminformatics workflows, integrating molecular structures, scaffolds, physicochemical properties, and geometry-based statistics into an interactive web interface. 
+
+The following are videos demonstrating the interactive capabilities of Chemical Mapper:
+- https://youtu.be/_u4C0sOvKU0
+- https://youtu.be/MwWC6xSW-64
 
 ---
 
@@ -31,7 +35,6 @@ This repository adapts Mapper for cheminformatics workflows, integrating molecul
    - [Component Analysis](#component-analysis)  
    - [Export PV](#export-pv)  
 6. [Chemical Viewer Panel](#chemical-viewer-panel)  
-7. [Tutorial for Reproducing the Paper’s Figures](##Tutorial-for-Reproducing-the-Paper’s-Figures)
 
 ---
 
@@ -211,12 +214,6 @@ Located directly beneath the Mapper graph, this panel provides detailed chemical
 
 This panel is essential for chemically interpreting the topology and clustering patterns observed in the Mapper graph.
 
-## Tutorial for Reproducing the Paper’s Figures
-
-Please use the link below. The videos in the folder guide you through reproducing the observations shown in the paper (**reproduce_figs**) and exporting/rendering the results in ParaView (**export_PV**).
-
-**Google Drive Link:**  
-https://drive.google.com/drive/folders/1grx1dcYGW--wzrxnrw0d6pwW3fbigWgg?usp=sharing
 
 
 

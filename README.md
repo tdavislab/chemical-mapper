@@ -40,8 +40,9 @@ The following are videos demonstrating the interactive capabilities of Chemical 
 
 ## Installation
 
+First, download the repository to your system. Then run:
+
 ```bash
-git clone https://github.com/DhruvMeduri/chemical_mapper.git
 cd chemical_mapper-EDF2
 pip install -r requirements.txt
 python3 run.py

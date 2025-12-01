@@ -65,8 +65,6 @@ The same parameter naming convention is used from scikit learn (see documentatio
 
 * `--eps`: epsilon for DBSCAN
 * `--min_samples`: Min samples for DBSCAN
-<!-- * `--linkage`: Linkage type for Agglomerative
-* `--distance_threshold`: Distance threshold for stopping Agglomerative clustering -->
 * `--bandwidth`: RBF kernel parameter for Mean Shift
 
 ---

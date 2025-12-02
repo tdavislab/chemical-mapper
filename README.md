@@ -113,7 +113,7 @@ Choose the appropriate parameters for the mapper computation in this panel and f
 
 ### Color Functions
 
-Allows users to apply color maps to Mapper nodes based on any chosen molecular property (e.g., molecular weight, activity, polarity).  
+Allows users to apply color maps to Mapper nodes based on any chosen molecular property (e.g., scaffold, toxicity etc).  
 This is useful for visually identifying gradients or clusters based on specific properties.
 
 ---
@@ -122,7 +122,7 @@ This is useful for visually identifying gradients or clusters based on specific 
 
 Allows users to scale the size of nodes based on properties such as:
 - Number of molecules in the node  
-- Average value of a user-selected property  
+- L2 norm
 
 This helps highlight dense or chemically significant regions in the graph.
 
@@ -161,7 +161,6 @@ Displays detailed chemical information for all molecules in the selected nodes, 
 - 2D molecular structures  
 - Scaffold decomposition  
 - Functional group breakdown  
-- Property annotations  
 
 ---
 

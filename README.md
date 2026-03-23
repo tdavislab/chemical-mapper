@@ -43,7 +43,7 @@ The following are videos demonstrating the interactive capabilities of Chemical 
 First, download the repository to your system. Then run:
 
 ```bash
-cd chemical_mapper-EDF2
+cd chemical-mapper
 pip install -r requirements.txt
 python3 run.py
 ```

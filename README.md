@@ -6,7 +6,7 @@ The following are videos demonstrating the interactive capabilities of Chemical 
 - https://youtu.be/_u4C0sOvKU0
 - https://youtu.be/MwWC6xSW-64
 
-This repository adapts Mapper for cheminformatics workflows, integrating molecular structures, scaffolds, physicochemical properties, and geometry-based statistics into an interactive web interface. The underlying Mapper algorithm was originally introduced by [Singh, Mémoli, and Carlsson (2007)](https://doi.org/10.2312/SPBG.SPBG07.091-100) as a method for extracting topological structure from high-dimensional datasets.
+This repository adapts Mapper for cheminformatics workflows, integrating molecular structures, scaffolds, physicochemical properties, and geometry-based statistics into an interactive web interface. The underlying Mapper algorithm was originally introduced by [Singh, Mémoli, and Carlsson (2007)](https://doi.org/10.2312/SPBG/SPBG07/091-100) as a method for extracting topological structure from high-dimensional datasets.
 
 ## Citation
 

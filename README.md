@@ -1,9 +1,13 @@
-# Mapper Interactive for Chemical Space Exploration
+# Mapping Chemical Space: Topological Data Analysis of Chemical Latent Space with Mapper
 
-**Chemical Mapper** is a specialized extension of the Mapper algorithm for **topological data analysis (TDA)**, developed to enable large-scale, interactive visualization of **chemical space**. It provides a graphical, chemistry-focused interface for exploring millions of molecular structures, their relationships, and their topological organization.
+**Chemical Mapper** is a specialized extension of the Mapper algorithm for **topological data analysis (TDA)**, developed to enable large-scale, interactive visualization of **chemical spaces**. It provides a graphical, chemistry-focused interface for exploring millions of molecular structures, their relationships, and their topological organization. Here is the citation:
 
-The underlying Mapper algorithm was introduced by Singh, Mémoli, and Carlsson (2007) as a tool for extracting topological information from high-dimensional datasets.  
-**Reference:** [Singh et al., 2007](http://dx.doi.org/10.2312/SPBG/SPBG07/091-100)
+Mapping Chemical Space: Topological Data Analysis of Chemical Latent
+Space with Mapper.
+Dhruv Meduri, Chuan-Shen Hu, Cong Shen, Kelin Xia, Bei Wang.
+International Symposium on Computational Geometry (SOCG), 2026.
+
+The underlying Mapper algorithm was introduced by [Singh, Mémoli, and Carlsson (2007)](https://doi.org/10.2312/SPBG.SPBG07.091-100) as a tool for extracting topological information from high-dimensional datasets.  
 
 This repository adapts Mapper for cheminformatics workflows, integrating molecular structures, scaffolds, physicochemical properties, and geometry-based statistics into an interactive web interface. 
 

@@ -4,7 +4,9 @@
 
 Mapping Chemical Space: Topological Data Analysis of Chemical Latent
 Space with Mapper.
+
 Dhruv Meduri, Chuan-Shen Hu, Cong Shen, Kelin Xia, Bei Wang.
+
 International Symposium on Computational Geometry (SOCG), 2026.
 
 The underlying Mapper algorithm was introduced by [Singh, Mémoli, and Carlsson (2007)](https://doi.org/10.2312/SPBG.SPBG07.091-100) as a tool for extracting topological information from high-dimensional datasets.  

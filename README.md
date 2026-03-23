@@ -1,14 +1,16 @@
 # Mapping Chemical Space: Topological Data Analysis of Chemical Latent Space with Mapper
 
-**Chemical Mapper** is a specialized extension of the Mapper algorithm for **topological data analysis (TDA)**, developed to enable large-scale, interactive visualization of **chemical spaces**. It provides a graphical, chemistry-focused interface for exploring millions of molecular structures, their relationships, and their topological organization. Here is the citation:
+**Chemical Mapper** is a specialized extension of the Mapper algorithm for **topological data analysis (TDA)**, designed for large-scale, interactive visualization of **chemical spaces**. It provides a graphical, chemistry-focused interface for exploring millions of molecular structures, their relationships, and their topological organization.
 
-Mapping Chemical Space: Topological Data Analysis of Chemical Latent Space with Mapper.<br>
-Dhruv Meduri, Chuan-Shen Hu, Cong Shen, Kelin Xia, Bei Wang.<br>
-International Symposium on Computational Geometry (SOCG), 2026.
+This repository adapts Mapper for cheminformatics workflows, integrating molecular structures, scaffolds, physicochemical properties, and geometry-based statistics into an interactive web interface. The underlying Mapper algorithm was originally introduced by [Singh, Mémoli, and Carlsson (2007)](https://doi.org/10.2312/SPBG.SPBG07.091-100) as a method for extracting topological structure from high-dimensional datasets.
 
-The underlying Mapper algorithm was introduced by [Singh, Mémoli, and Carlsson (2007)](https://doi.org/10.2312/SPBG.SPBG07.091-100) as a tool for extracting topological information from high-dimensional datasets.  
+## Citation
 
-This repository adapts Mapper for cheminformatics workflows, integrating molecular structures, scaffolds, physicochemical properties, and geometry-based statistics into an interactive web interface. 
+If you use this work, please cite:
+
+Mapping Chemical Space: Topological Data Analysis of Chemical Latent Space with Mapper.  
+Dhruv Meduri, Chuan-Shen Hu, Cong Shen, Kelin Xia, Bei Wang.  
+International Symposium on Computational Geometry (SoCG), 2026.
 
 The following are videos demonstrating the interactive capabilities of Chemical Mapper:
 - https://youtu.be/_u4C0sOvKU0
